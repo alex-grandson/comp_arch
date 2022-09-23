@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "comp-arch"
+version = "0.1.0"
+description = ""
+authors = ["alex-grandson <258484@niuitmo.ru>"]
+readme = "README.md"
+packages = [{include = "comp_arch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^22.8.0"
+isort = "^5.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
